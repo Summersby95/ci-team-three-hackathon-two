@@ -29,7 +29,7 @@ h1, h2 {
 
 .white-blue {
   background-color: var(--white-blue-color);
-  color: #000;
+  color: var(--white-color);
 }
 
 .uppercase {
@@ -71,7 +71,7 @@ h1, h2 {
 .left-side {
   background-color: #4B79AA;
   padding: 25px;
-  
+
 }
 
 .left-side li {
@@ -129,7 +129,7 @@ h1, h2 {
 
 .heading-contact {
     text-decoration: underline;
-    color: var(--light-blue-color);
+    color: var(--white-color);
     padding: 5px;
 }
 
@@ -142,7 +142,7 @@ h1, h2 {
 }
 
 .home-bio {
-  color: var(--grey-blue-color);
+  color: var(--white-color);
   padding-top: 10px;
 }
 
