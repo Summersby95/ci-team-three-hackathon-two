@@ -88,23 +88,15 @@ h1, h2 {
   font-size: 1.5em;
   color: #fff;
 }
-.projects {
-  padding: 5px;
-  font-size: 1em;
-  color: #fff;
-}
 
 .right-side {
   background-color: #7FA2C7;
-  padding: 5px;
+  padding: 25px;
   color: #fff;
-  display: table-cell;
 }
 
-/* Sourced from https://stackoverflow.com/questions/27468476/how-to-align-text-to-the-right-side-of-an-img-without-using-floatleft-so-it-won */
-.projects img {
-  float: left;
-  padding: 10px;
+.projects  {
+  font-size: 1em;
 }
 
 @media only screen and (min-width: 768px) {
