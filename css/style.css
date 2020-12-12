@@ -96,6 +96,27 @@ h1, h2 {
   height: 120px;
 }
 
+
+/* Contact Page */
+.border {
+     border-style: solid;
+  border-color: black;
+}
+
+.heading-contact {
+    text-decoration: underline;
+    color: var(--light-blue-color);
+    padding: 5px;
+}
+
+.contact-items {
+    font-size: 15px;
+}
+
+.button-contact {
+    margin-bottom: 3px;
+}
+
 .home-bio {
   color: var(--grey-blue-color);
   padding-top: 10px;
