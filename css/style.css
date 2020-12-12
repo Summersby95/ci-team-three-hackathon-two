@@ -1,4 +1,4 @@
-@import url(‘https://fonts.googleapis.com/css2?family=Padauk:wght@700&family=Roboto&display=swap’);
+@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@700&family=Roboto&display=swap');
 
 :root {
   --grey-blue-color: #545E75;
@@ -10,15 +10,11 @@
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1, h2 {
-  font-family: Padauk, sans-serif;
-}
-
-.orange {
-  background-color: orange;
+  font-family: 'Padauk', sans-serif;
 }
 
 .grey-blue {
@@ -100,6 +96,7 @@ h1, h2 {
   height: 120px;
 }
 
+
 /* Contact Page */
 .border {
      border-style: solid;
@@ -118,4 +115,30 @@ h1, h2 {
 
 .button-contact {
     margin-bottom: 3px;
+}
+
+.home-bio {
+  color: var(--grey-blue-color);
+  padding-top: 10px;
+}
+
+.home-bio h3, .home-bio h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.home-about h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.home-about {
+  padding-top: 10px;
+}
+
+.home-about-sect {
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
 }
