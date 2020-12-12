@@ -71,17 +71,49 @@ h1, h2 {
   color: var(--white-color);
 }
 
-.nav-div-outer {
-
+/*------- About Page Styling */
+.left-side {
+  background-color: #4B79AA;
+  padding: 25px;
+  
 }
 
-.nav-div {
+.left-side li {
+  list-style-type: none;
+  padding: 5px;
+  color: #fff;
+}
 
+.left-side h1 ,.right-side h1 {
+  font-size: 1.5em;
+  color: #fff;
+}
+.projects {
+  padding: 5px;
+  font-size: 1em;
+  color: #fff;
+}
+
+.right-side {
+  background-color: #7FA2C7;
+  padding: 5px;
+  color: #fff;
+  display: table-cell;
+}
+
+/* Sourced from https://stackoverflow.com/questions/27468476/how-to-align-text-to-the-right-side-of-an-img-without-using-floatleft-so-it-won */
+.projects img {
+  float: left;
+  padding: 10px;
 }
 
 @media only screen and (min-width: 768px) {
   .nav-div, .nav-div-outer {
     height: 120px;
+  }
+
+  .left-side li {
+    padding-top: 30px;
   }
 }
 
